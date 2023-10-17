@@ -5,10 +5,13 @@ https://fostips.com/install-ffmpeg-debian-stable/
 
 
 # install in docker 
+```
  docker buildx build -t ffmpeg6:latest .
  docker run -dit --name ffm6 ffmpeg:latest
  docker exec -it ffm6 bash
+```
 
+```
  root@46fce1409f93:/# /usr/bin/ffmpeg -version
  ffmpeg version 6.0 Copyright (c) 2000-2023 the FFmpeg developers
  built with gcc 12 (Debian 12.2.0-14)
@@ -36,3 +39,4 @@ https://fostips.com/install-ffmpeg-debian-stable/
  libswscale      7.  1.100 /  7.  1.100
  libswresample   4. 10.100 /  4. 10.100
  libpostproc    57.  1.100 / 57.  1.100
+```
