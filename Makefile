@@ -16,7 +16,5 @@ ffmpeg6:
 # https://fostips.com/install-ffmpeg-debian-stable/
 #
 
-# docker buildx build -t ffmpeg6:latest .
-# docker run -dit --name ffm6 ffmpeg:latest
-# docker exec -it ffm6 bash
+
 
